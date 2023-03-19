@@ -11,4 +11,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Desapego.API.Models\Desapego.API.Models.csproj" />
+    <ProjectReference Include="..\..\Services\Desapego.API.Services\Desapego.API.Services.csproj" />
+  </ItemGroup>
+
 </Project>
